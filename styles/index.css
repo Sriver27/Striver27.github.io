@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #EFFFFD;
+   
+}
+.title-img{
+    width:90%;
+    
+    /* position:absolute; */
+    right:15%;
+
+}
+
+h2{
+    font-size:8vh;
+}
+h1{
+    line-height:1.5;
+    font-size: 8.5vh;
+    
+}
+
+#title{
+   
+
+     padding:5% 10%;
+  
+     
+    
+}
+
+.container-fluid {
+    width: 100%;
+    height: 90vh;
+   
+    
+   
+}
+
+h1,h2{
+    font-family: 'Playfair Display', serif;
+    color:#F14668;
+}
+#menu-items{
+    padding:5% 10%;
+    background-color: #151D3B;
+}
+.menu-card{
+    width:80%;
+    height:75vh;
+}
+.sub-head{
+    margin:10% auto 0 auto;
+    color:#fff;
+}
+
+#about-us{
+
+    background-image: url('https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+    width: 100%;
+    height: 60vh;
+    padding:5% 10%;
+    margin:5% 1%;
+
+}
+.navbar{
+    padding:0 0 4.5rem;
+   
+}
+.nav-item{
+    padding:0 18px;
+}
+.about-res{
+    padding:2% 15% ;
+    color:#fff;
+   
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+#menu{
+    padding:5% 10%;
+    background-image: url("https://media.istockphoto.com/photos/crispy-pancake-made-of-fermented-whole-grain-kodo-millet-batter-with-picture-id1321356515?b=1&k=20&m=1321356515&s=170667a&w=0&h=-6fRV6vAwm8foqnyH5gA8GJq3PQqIoVhLmA5Ry6t6hs=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.our-menu{
+    margin:10% 8%;
+}
+.menu-button{
+    margin:10% ;
+    color:#fff;
+    font-weight:900;
+    border-color: #fff;
+}
+
+.carousel-item{
+    padding:10% 10%;
+    text-align: center;
+    color:#fff;
+    
+}
+
+#testimonials{
+
+    background-color:#F14668;
+    width: 100%;
+    height: 60vh;
+    margin:20px 0;
+    
+
+}
+.review{
+    
+    font-size:5.1vh;
+    padding-bottom:5% ;
+    font-family: 'Playfair Display', serif;
+}
+
+.testimonial-img{
+    width:7%;
+    border-radius:100%;
+    /* margin:20px; */
+    
+
+}
+
+.items-card-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+}
+.items-card {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+ 
+.items-card-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+ 
+.items-card-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+ 
+.items-card-text {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.service{
+    padding:5% 10%;
+}
+
+#contact{
+    background-color:#F14668;
+    padding:5% 10%;
+}
+
+.reach,.locate{
+    color:white;
+}
+.social{
+    padding:6% 5%;
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #F14668;
+  }
+  
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F14668;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  .company{
+    display: inline-block;
+  }
+  .text{
+    overflow: hidden;
+    border-right: .10em solid #F14668;
+    white-space: nowrap;
+    margin: 0 auto;
+   
+    width: 0;
+    animation: 
+      typing 2.5s steps(20, end) forwards;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+
+  /* .menu-button {
+    border-radius: 4px;
+    background-color: #F14668;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .menu-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .menu-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .menu-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .menu-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ */
+
+ .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+ .number{
+     color: #fff;
+ }
+.menu-button:hover{
+    background-color: #F14668;
+}
+
+
+  /* .company {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+  }
+  
+  .company > .text {
+    max-width: 0;
+    animation: typing 3s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .company:after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+  }
+  
+  @keyframes typing {
+    75%,
+    100% {
+      max-width: calc(var(--characters) * 1ch);
+    }
+  }
+  
+  @keyframes blink {
+    0%,
+    75%,
+    100% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+  } */
+
+
+@media screen and (max-width: 980px) {
+    .menu-img {
+      width:80%;
+    }
+    .navbar{
+        padding:0 0 1rem;
+    }
+    #title{
+        margin-bottom: 10%;
+    }
+    #about-us{
+        height:75vh;
+    }
+   
+  }
